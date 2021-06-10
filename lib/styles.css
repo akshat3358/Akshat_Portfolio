@@ -84,7 +84,7 @@ hr {
 
 .hero .hero-heading {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
     color: var(--dark-grey);
 }
 
@@ -110,6 +110,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .footer .footer-header {
