@@ -2,16 +2,17 @@
 
 :root{
     --primary-color: #14B8A6;
-    --off-white:#F1F5F9;
+    --off-white: #e5e7eb;
     --dark-grey: #1F2937;
 }
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
+  margin: auto;
+  /*max-width:80%;*/
 }
 
 hr {
-    margin: 1rem 0rem;
+    margin: 3rem 0rem;
 }
 
 .container {
@@ -19,7 +20,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -55,10 +56,12 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size:x-large;
 }
 
 .navigation .nav-pills {
@@ -70,22 +73,28 @@ hr {
 }
 .navigation .link-active {
     font-weight: bold;
+    background-color: var(--dark-grey);
+    border: 8px;
+    border-radius: 10px;
 }
 
 .hero {
-    padding: 2rem;
+    padding: 2.5rem;
+    padding-top: 4rem;
 }
 
 .hero .hero-img {
-    max-width: 700px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     color: var(--dark-grey);
+    margin: auto;
+    max-width: 60%;
 }
 
 .hero .hero-heading .heading-inverted {
