@@ -1,12 +1,12 @@
 # Akshat's Portfolio
 
-**Hey !! Welcome to My Personal  Porfolio in Making .**
+**Hey !! Welcome to My Personal  Porfolio.**
 
 Hope You liked it .
 
 For now ,I know -
 
-1. Javascript
+1. Html ,Css , Javascript
 
 1. Chalk
 
